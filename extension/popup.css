@@ -1,0 +1,13 @@
+#settings{
+width: 300px;
+}
+table,h1{
+margin: auto;
+}
+h1{
+text-align: center;
+}
+
+.right{
+text-align: right;
+}

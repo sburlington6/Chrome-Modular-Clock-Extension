@@ -1,0 +1,129 @@
+body{
+	text-align:center;
+}
+span{
+	margin: 0;	
+	padding: 0;
+}
+
+#topSitesTable,#appsTable{
+	margin: auto;
+}
+
+#topSites a{
+	margin: 5px;
+}
+
+.time{
+	font-size:20em;
+	font-weight: bold;
+	/*font-family: 'New Rocker', cursive;*/
+}
+#time{
+
+}
+
+#dim{
+	background-color:rgba(0, 0, 0, 0.8);
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	display:none;
+	width: 100%;
+	height:100%;
+}
+
+#settings, #info{
+	display:none;
+	position: relative;
+	z-index: 100;
+	
+}
+#info ul{
+list-style-type:none;
+padding: 0px;
+}
+
+#infoT,#settingsT{
+	position: relative;
+	z-index: 100;
+	border: 20px solid #000;
+	background: #000;
+	width: 400px;
+	margin: auto;
+}
+
+#ampm{
+	font-size:3em;
+}
+#date{
+	text-align:center;
+	font-size:4em;
+	font-variant:small-caps;
+}
+
+#gear,#i,#ont,#history{
+	cursor:pointer;
+}
+
+::selection { background: #000; }
+::-moz-selection { background: #000; }
+
+
+#buttons img{
+	margin: 0px 5px 0px;
+}
+
+#time, #topSites,#settings, #info,#apps,#rss{
+	
+	border-radius:20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+
+	color:#fff;
+	padding: 0px 10px 0px;
+	text-shadow: 0px 2px 3px #171717;
+
+
+}
+
+.colon{
+	vertical-align:8%;
+}
+
+.columns{
+list-style-type:none;
+padding: 0px;
+border: 2px dashed #000;
+min-height: 100px;
+}
+
+.float{
+
+width: 49%;
+float: left;
+}
+
+.columns li{
+    margin: 20px 10px 20px;
+
+}
+
+  #sortable1, #sortable2 { list-style-type: none; margin: 0; padding: 0 0 2.5em; float: left; margin-right: 10px; }
+  #sortable1 li, #sortable2 li { margin: 0 5px 5px 5px; padding: 5px; font-size: 1.2em; width: 120px; }
+ 
+
+/* css for sortable drop */
+.ui-state-highlight {
+
+border: 2px dashed #fff;
+    margin: 10px;
+    height: 100px;
+}
+
+
+
+
+
+
+

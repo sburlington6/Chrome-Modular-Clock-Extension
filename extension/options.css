@@ -1,0 +1,45 @@
+table,h1{
+margin: auto;
+}
+h1{
+text-align: center;
+}
+.right{
+text-align: right;
+}
+#settings{
+text-align: center;
+}
+
+#sortSettings{
+width: 500px;
+margin: auto;
+text-align: center;
+}
+
+.columns{
+list-style-type:none;
+padding: 0px;
+border: 2px dashed #000;
+min-height: 100px;
+}
+
+.float{
+
+width: 49%;
+float: left;
+}
+
+.columns li{
+    margin: 20px 10px 20px;
+
+}
+
+
+/* css for sortable drop */
+.ui-state-highlight {
+
+border: 2px dashed #000;
+    margin: 10px;
+    height: 100px;
+}

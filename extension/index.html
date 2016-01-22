@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Better New Tab</title>
+		<script src="scripts/jquery-2.0.3.min.js"></script>
+		<script src="scripts/jquery-ui-1.10.4.custom.min.js"></script>
+		<script src="scripts/jquery.zrssfeed.min.js"></script>
+		<script src="style.js"></script>
+		<script src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/ui-lightness/jquery-ui-1.10.4.custom.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="styles/onOffSwitch.css">
+		
+		<link rel="stylesheet" href="/tipsy/tipsy.css" type="text/css" />
+		<script src='/tipsy/jquery.tipsy.js'></script>
+		
+		<script src="scripts/jquery.fittext.js"></script>
+		<script src="scripts/jquery-blink.js" language="javscript" type="text/javascript"></script>
+		
+	</head>
+
+	<body>
+		
+		<ul id="modules1" class="columns ">
+			<li id="time" class="btime">
+				<span id="clock" class="time"></span>
+				<span id="seconds" class="time"></span>
+				<span id="ampm"></span>
+				<br/>
+				<span id="date"></span>
+			</li>
+			<!--
+			<liid="rss">
+				<h1>RSS Feed</h1>
+			</li>
+			-->
+			<li id="topSites">
+				<h1>Top Sites</h1>
+			</li>
+			<li id="apps">
+				<h1>Apps</h1>
+			</li>
+			<li id="buttons">
+				<!-- <img id="ont" class="useTipsy" title="Original New Tab Page" src="images/newTabWhite.png" alt="Original New Tab Page" height="100px" width="100px"> -->
+				<img id="i" class="useTipsy" title="Info" src="images/info.png" alt="Info" height="100px" width="100px">
+				<img id="gear" class="useTipsy" title="Settings" src="images/gear.png" alt="Settings" height="100px" width="100px">
+				<img id="defapps" class="useTipsy" title="Apps" src="images/newTab.png" alt="Apps" height="100px" width="100px">
+				<a href="https://chrome.google.com/webstore"><img id="webStore" class="useTipsy" title="Chrome Web Store" src="images/webStore.png" alt="Info" height="100px" width="100px"></a>
+				<img id="history" class="useTipsy" title="Google Chrome History" src="images/clock2.png" alt="Info" height="100px" width="100px">
+			</li>
+		</ul>
+		<ul id="modules2" class="columns float"></ul>
+		<ul id="modules3" class="columns float"></ul>
+		<div id="dim">
+			<div id="info">
+				<div id="infoT">
+					<h1>Plugins Used</h1>
+					<ul>
+						<li><a href="http://freebiesbug.com/code-stuff/simple-toggle-switch-css/" alt="On/Off Switches">freebiesbug.com - On/Off Switches</a></li>
+						<li><a href="http://fittextjs.com/" alt="fittext.js">Fittext.js - Text Resizer</a></li>
+						<li><a href="http://onehackoranother.com/projects/jquery/tipsy/" alt="tipsy">Tipsy - Tooltips</a></li>
+						<li><a href="http://www.antiyes.com/jquery-blink-plugin" alt="jQuery Blink Plugin">jQuery Blink Plugin</a></li>
+						<li><a href="http://bgrins.github.io/spectrum/" alt="The No Hassle jQuery Colorpicker">Spectrum - The No Hassle jQuery Colorpicker</a></li>
+					</ul>
+					<h1>Developer</h1>
+					<a href="http://www.therichardbird.com" alt="therichardbird.com">Richard Bird</a>
+					<button type="button" id="infoClose">Close</button>
+				</div>
+			</div>
+			<div id="settings">
+				<div id="settingsT">
+					<h1>Settings</h1>
+					bodyBackground<input id="bodyBackground" type="color" name="bodyBackground" value='#008FB2'><br/>
+					linkColor<input id="linkColor" type="color" name="linkColor" value='#99EBFF'><br/>
+					moduleBackground<input id="moduleBackground" type="color" name="moduleBackground" value='#003D4C'><br/>
+					moduleText<input id="moduleText" type="color" name="moduleText" value='#ffffff'><br/>
+					<input id="colorSubmit" type="submit">
+				</div>
+			</div>
+		</div>
+		
+		
+		
+	</body>
+</html>

@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <head>
+		<title>Better New Tab</title>
+		<script src="scripts/jquery-2.0.3.min.js"></script>
+		<script src="options.js"></script>
+		<link rel="stylesheet" type="text/css" href="popup.css">
+		<link rel="stylesheet" type="text/css" href="styles/onOffSwitch.css">
+		<script type='text/javascript' src='/tipsy/jquery.tipsy.js'></script>
+		<link rel="stylesheet" href="/tipsy/tipsy.css" type="text/css" />
+  </head>
+  <body>
+	<div id="settings">
+		<!--	
+				Display Time
+				<label class="switch">
+				  <input type="checkbox" class="switch-input" checked="checked" id="disptime">
+				  <span class="switch-label" data-on="On" data-off="Off"></span>
+				  <span class="switch-handle"></span>
+				</label>
+		-->
+			<h1>Quick Settings</h1>
+			<table>
+				<tr>
+					<td class="right">Display AM/PM</td>
+					<td>
+					<label class="switch">
+						<input type="checkbox" class="switch-input" checked="checked" id="dispampm">
+						<span class="switch-label" data-on="On" data-off="Off"></span>
+						<span class="switch-handle"></span>
+					</label>
+					</td>
+				</tr>
+				<tr>
+					<td class="right">Display Seconds</td>
+					<td class="right">
+						<label class="switch">
+							<input type="checkbox" class="switch-input" checked="checked" id="dispseconds">
+							<span class="switch-label" data-on="On" data-off="Off"></span>
+							<span class="switch-handle"></span>
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td class="right">Display Date</td>
+					<td>
+						<label class="switch">
+							<input type="checkbox" class="switch-input" checked="checked" id="dispdate">
+							<span class="switch-label" data-on="On" data-off="Off"></span>
+							<span class="switch-handle"></span>
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td class="right">Display Top Sites</td>
+					<td>
+						<label class="switch">
+							<input type="checkbox" class="switch-input" checked="checked" id="disptopSites">
+							<span class="switch-label" data-on="On" data-off="Off"></span>
+							<span class="switch-handle"></span>
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td class="right">Display Apps</td>
+					<td>
+						<label class="switch">
+							<input type="checkbox" class="switch-input" checked="checked" id="dispapps">
+							<span class="switch-label" data-on="On" data-off="Off"></span>
+							<span class="switch-handle"></span>
+						</label>
+					</td>
+				</tr>
+			</table>
+		</div>
+  </body>
+</html>
+

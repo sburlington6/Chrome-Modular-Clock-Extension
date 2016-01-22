@@ -1,0 +1,25 @@
+{
+	"name": "Better New Tab Page",
+	"version": "1.0",
+	"manifest_version": 2,
+	"options_page": "options.html",
+  
+	"description": "My first Chrome extension.",
+	"browser_action": {
+		"default_icon": "images/icon.png",
+		"default_popup": "options.html"
+  },
+  
+	"chrome_url_overrides" : {
+		"newtab": "index.html"
+  },
+  
+	"permissions": [
+		"storage",
+		"management",
+		"topSites",
+		"chrome://favicon/",
+		"tabs",
+		"https://*.google.com/"
+  ]
+}
